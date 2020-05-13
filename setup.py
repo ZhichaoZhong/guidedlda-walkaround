@@ -10,7 +10,7 @@ setup(
     author='ZhichaoZhong',
     author_email='zzhong@wehkamp.nl',
     description='Guided LDA wrapper',
-    install_reqs = ['lda==1.1.0'],
+    install_requires = ['lda==1.1.0'],
     packages=["guidedlda"],
     python_requires='>=3.7',
 )
